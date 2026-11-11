@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoWrap | Envoltorios reutilizables de cera de abeja</title>
+  <meta name="description" content="Envoltorios reutilizables de cera de abeja. Decile adiós al film plástico. Disponible en la Feria de Productos Sustentables." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            hoja: { 50: '#f3f8f1', 100: '#e2efdd', 500: '#4f8a3f', 600: '#3f7132', 700: '#32592a', 900: '#1d3318' },
+            miel: { 400: '#f2b84b', 500: '#e8a21f' },
+            tierra: '#f7f3ea'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-tierra text-hoja-900 antialiased">
+
+  <!-- NAVEGACIÓN -->
+  <header class="sticky top-0 z-50 bg-tierra/90 backdrop-blur border-b border-hoja-100">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
+      <a href="#inicio" class="flex items-center gap-2 text-xl font-bold text-hoja-700">
+        <span class="text-2xl">🌿</span> EcoWrap
+      </a>
+      <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <li><a href="#beneficios" class="hover:text-hoja-500">Beneficios</a></li>
+        <li><a href="#producto" class="hover:text-hoja-500">Producto</a></li>
+        <li><a href="#impacto" class="hover:text-hoja-500">Impacto</a></li>
+        <li><a href="#feria" class="hover:text-hoja-500">En la feria</a></li>
+      </ul>
+      <a href="#comprar" class="rounded-full bg-hoja-600 px-5 py-2 text-sm font-semibold text-white hover:bg-hoja-700 transition">Comprar</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <span class="inline-block rounded-full bg-hoja-100 px-4 py-1 text-sm font-semibold text-hoja-700">
+        ♻️ Presentes en la Feria de Productos Sustentables
+      </span>
+      <h1 class="mt-5 text-4xl md:text-6xl font-extrabold leading-tight">
+        Envolvé tu comida, <span class="text-hoja-500">no el planeta.</span>
+      </h1>
+      <p class="mt-5 text-lg text-hoja-700/90 max-w-xl">
+        Envoltorios reutilizables de algodón orgánico y cera de abeja. Una alternativa natural,
+        lavable y compostable al film plástico. Duran hasta un año.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#comprar" class="rounded-full bg-miel-500 px-7 py-3 font-bold text-hoja-900 shadow hover:bg-miel-400 transition">
+          Quiero el mío
+        </a>
+        <a href="#producto" class="rounded-full border-2 border-hoja-600 px-7 py-3 font-semibold text-hoja-700 hover:bg-hoja-600 hover:text-white transition">
+          Ver detalles
+        </a>
+      </div>
+      <p class="mt-6 text-sm text-hoja-700/80">⭐ Hecho a mano · 🇦🇷 Producción local · 🚚 Envíos a todo el país</p>
+    </div>
+
+    <!-- Reemplazá este bloque por <img src="tu-foto.jpg" class="rounded-3xl ..."> -->
+    <div class="relative">
+      <div class="aspect-square rounded-[2.5rem] bg-gradient-to-br from-hoja-100 via-hoja-50 to-miel-400/40 flex items-center justify-center shadow-xl">
+        <span class="text-[9rem] md:text-[12rem]" aria-hidden="true">🍯</span>
+      </div>
+      <div class="absolute -bottom-5 -left-3 rounded-2xl bg-white px-5 py-3 shadow-lg">
+        <p class="text-xs text-hoja-700/70">Plástico evitado por kit</p>
+        <p class="text-2xl font-extrabold text-hoja-600">+300 m</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios" class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center">¿Por qué elegir EcoWrap?</h2>
+      <p class="mt-3 text-center text-hoja-700/80 max-w-2xl mx-auto">Simple, natural y pensado para tu día a día.</p>
+
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <article class="rounded-3xl bg-tierra p-6 hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="text-4xl">🔁</div>
+          <h3 class="mt-4 text-lg font-bold">Reutilizable</h3>
+          <p class="mt-2 text-sm text-hoja-700/80">Lavalo con agua fría y jabón neutro. Usalo cientos de veces.</p>
+        </article>
+        <article class="rounded-3xl bg-tierra p-6 hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="text-4xl">🌱</div>
+          <h3 class="mt-4 text-lg font-bold">100% natural</h3>
+          <p class="mt-2 text-sm text-hoja-700/80">Algodón orgánico, cera de abeja y resina de pino. Sin químicos.</p>
+        </article>
+        <article class="rounded-3xl bg-tierra p-6 hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="text-4xl">🥬</div>
+          <h3 class="mt-4 text-lg font-bold">Conserva fresco</h3>
+          <p class="mt-2 text-sm text-hoja-700/80">Ideal para frutas, verduras, quesos, pan y sándwiches.</p>
+        </article>
+        <article class="rounded-3xl bg-tierra p-6 hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="text-4xl">🪴</div>
+          <h3 class="mt-4 text-lg font-bold">Compostable</h3>
+          <p class="mt-2 text-sm text-hoja-700/80">Al final de su vida útil, vuelve a la tierra sin dejar residuos.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTO -->
+  <section id="producto" class="max-w-6xl mx-auto px-5 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div class="aspect-[4/3] rounded-3xl bg-hoja-100 flex items-center justify-center text-[8rem] shadow-inner" aria-hidden="true">🥪</div>
+    <div>
+      <h2 class="text-3xl md:text-4xl font-extrabold">Kit EcoWrap x3</h2>
+      <p class="mt-4 text-hoja-700/90">Tres tamaños para cubrir todo lo que guardás en la heladera y llevás en la vianda.</p>
+      <ul class="mt-6 space-y-3">
+        <li class="flex gap-3"><span class="text-hoja-500 font-bold">✓</span> Chico (18×18 cm): para frutas cortadas y bowls</li>
+        <li class="flex gap-3"><span class="text-hoja-500 font-bold">✓</span> Mediano (25×25 cm): para sándwiches y quesos</li>
+        <li class="flex gap-3"><span class="text-hoja-500 font-bold">✓</span> Grande (33×33 cm): para pan y fuentes</li>
+        <li class="flex gap-3"><span class="text-hoja-500 font-bold">✓</span> Incluye guía de cuidado y bolsita de tela</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section id="impacto" class="bg-hoja-700 text-white py-20">
+    <div class="max-w-6xl mx-auto px-5 text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Pequeño cambio, gran impacto</h2>
+      <div class="mt-12 grid sm:grid-cols-3 gap-8">
+        <div>
+          <p class="text-5xl font-extrabold text-miel-400">1 año</p>
+          <p class="mt-2 text-white/80">de uso con el cuidado adecuado</p>
+        </div>
+        <div>
+          <p class="text-5xl font-extrabold text-miel-400">0</p>
+          <p class="mt-2 text-white/80">plásticos de un solo uso</p>
+        </div>
+        <div>
+          <p class="text-5xl font-extrabold text-miel-400">100%</p>
+          <p class="mt-2 text-white/80">materiales naturales y biodegradables</p>
+        </div>
+      </div>
+      <p class="mt-10 text-sm text-white/60">* Cifras de ejemplo. Reemplazalas por los datos reales de tu producto.</p>
+    </div>
+  </section>
+
+  <!-- COMPRAR -->
+  <section id="comprar" class="max-w-4xl mx-auto px-5 py-20">
+    <div class="rounded-[2rem] bg-white p-8 md:p-12 shadow-xl text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Llevate tu kit</h2>
+      <p class="mt-3 text-hoja-700/80">Precio especial para quienes nos visitan en la feria.</p>
+
+      <div class="mt-8 flex items-end justify-center gap-4">
+        <span class="text-2xl text-hoja-700/50 line-through">$12.000</span>
+        <span class="text-5xl font-extrabold text-hoja-600">$9.500</span>
+      </div>
+      <p class="mt-2 text-sm text-hoja-700/70">Promo válida durante la feria · Envío a coordinar</p>
+
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <!-- Cambiá el número de WhatsApp (código de país + área + número, sin espacios ni +) -->
+        <a href="https://wa.me/5492954000000?text=Hola!%20Quiero%20el%20Kit%20EcoWrap%20x3"
+           target="_blank" rel="noopener"
+           class="rounded-full bg-hoja-600 px-8 py-3 font-bold text-white hover:bg-hoja-700 transition">
+          Pedir por WhatsApp
+        </a>
+        <a href="#feria" class="rounded-full border-2 border-hoja-600 px-8 py-3 font-semibold text-hoja-700 hover:bg-hoja-50 transition">
+          Dónde encontrarnos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FERIA / CONTACTO -->
+  <section id="feria" class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">Visitanos en la feria</h2>
+        <dl class="mt-6 space-y-4">
+          <div><dt class="text-sm font-semibold text-hoja-500">Evento</dt><dd>Feria de Productos Sustentables</dd></div>
+          <div><dt class="text-sm font-semibold text-hoja-500">Stand</dt><dd>N.º 00 (completar)</dd></div>
+          <div><dt class="text-sm font-semibold text-hoja-500">Fecha y horario</dt><dd>Completar fecha · 10 a 20 hs</dd></div>
+          <div><dt class="text-sm font-semibold text-hoja-500">Lugar</dt><dd>Completar dirección</dd></div>
+        </dl>
+      </div>
+
+      <form class="rounded-3xl bg-tierra p-6 md:p-8 space-y-4" onsubmit="event.preventDefault(); alert('¡Gracias! Te avisamos novedades.'); this.reset();">
+        <h3 class="text-xl font-bold">Sumate a nuestra comunidad</h3>
+        <p class="text-sm text-hoja-700/80">Dejanos tu mail y te avisamos de promos y nuevos productos.</p>
+        <label class="block">
+          <span class="text-sm font-medium">Nombre</span>
+          <input required type="text" class="mt-1 w-full rounded-xl border border-hoja-100 bg-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-hoja-500" />
+        </label>
+        <label class="block">
+          <span class="text-sm font-medium">Email</span>
+          <input required type="email" class="mt-1 w-full rounded-xl border border-hoja-100 bg-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-hoja-500" />
+        </label>
+        <button class="w-full rounded-full bg-miel-500 py-3 font-bold text-hoja-900 hover:bg-miel-400 transition">Quiero novedades</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-hoja-900 text-white/80">
+    <div class="max-w-6xl mx-auto px-5 py-8 flex flex-col md:flex-row items-center justify-between gap-3 text-sm">
+      <p>🌿 EcoWrap · Hecho con amor y cera de abeja</p>
+      <p>© <span id="year"></span> EcoWrap. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
